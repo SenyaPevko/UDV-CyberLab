@@ -8,4 +8,12 @@ export default defineConfig({
     resolve: {
         mainFields: [],
     },
+    server: {
+        watch: {
+          usePolling: true,
+        },
+        host: true,
+        strictPort: true,
+        port: 3000,
+    },
 })

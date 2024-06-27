@@ -16,6 +16,7 @@ lerna-debug.log*
 
 Web/node_modules
 Web/dist
+Web/dist
 dist-ssr
 *.local
 
@@ -65,7 +66,6 @@ bld/
 **/bin
 **/charts
 **/docker-compose*
-**/Dockerfile*
 **/node_modules
 **/npm-debug.log
 **/obj
@@ -78,8 +78,6 @@ README.md
 *.idea
 *.sln.DotSettings.user
 
-# Docker
-Dockerfile
 
 # Exceptions
 !/Models/Logs/

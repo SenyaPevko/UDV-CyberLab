@@ -58,7 +58,6 @@ bld/
 **/bin
 **/charts
 **/docker-compose*
-**/Dockerfile*
 **/node_modules
 **/npm-debug.log
 **/obj
@@ -72,5 +71,7 @@ README.md
 *.sln.DotSettings.user
 *.DotSettings.user
 
-# Docker
-Dockerfile
+
+# Exceptions
+!/public/libs/noVNC/
+!/public/libs/noVNC/*
